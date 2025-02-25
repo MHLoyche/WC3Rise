@@ -7,6 +7,7 @@ nav {
 /* defaulting background color to black */
 body {
     background-color: black;
+    display: inline;
 }
 /* banner style */
 .banner {
@@ -107,4 +108,22 @@ item_img{
     margin: 30px;
     padding: 10px;
     margin-right: 300px;
+}
+
+.content{
+    position: fixed;
+    right: 1;
+    top: 1;
+}
+
+.chat-box {
+    width: 50%;
+    height: 100vh;
+    background-color: #111;
+    padding: 10px;
+    border-left: 2px solid blue;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 1;
 }
